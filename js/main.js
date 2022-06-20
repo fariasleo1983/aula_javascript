@@ -1,5 +1,5 @@
-var d = new Date();
-alert(d.getHours());
+/*var d = new Date();
+alert(d.getHours());*/
 
 
 /*var count;
@@ -66,3 +66,38 @@ alert(fruta.cor);*/
 //console.log(nome);
 //console.log(n1 * n2);
 //console.log(frase.toUpperCase());
+
+
+/*function soma(n1, n2) {
+    return n1 + n2;
+}*/
+
+/*var validar = 0;
+
+function validaIdade(idade) {
+
+    if (idade >= 18) {
+        validar = true
+    } else {
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual é a sua idade?");
+validaIdade(idade);
+console.log(validar);*/
+
+/*function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome)
+}*/
+
+/*alert(soma(5, 10));*/
+/*alert(setReplace("Jesus Cristo", "Jesus", "Salva"));*/
+
+function clicou() {
+
+    document.getElementById("agradecimento").innerHTML = "Jesus é Senhor da minha vida!";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar!");
+}
