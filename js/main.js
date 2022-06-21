@@ -101,3 +101,28 @@ function clicou() {
     //console.log(document.getElementById("agradecimento"));
     //alert("Obrigado por clicar!");
 }
+
+function redirecionar() {
+    window.open("https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=&aqs=chrome.2.35i39i362l2j46i39i199i362i465j35i39i362l3j69i59i450l2.5062300j0j7&sourceid=chrome&ie=UTF-8");
+
+    window.location.href = "https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=&aqs=chrome.2.35i39i362l2j46i39i199i362i465j35i39i362l3j69i59i450l2.5062300j0j7&sourceid=chrome&ie=UTF-8";
+}
+
+function trocar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
+
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load() {
+    alert("Página carregada");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
